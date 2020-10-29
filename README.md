@@ -7,3 +7,4 @@
   
   # the values in the table should put into the array, TableArray
   eg:- var TableArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];	// whatever values in table, should put here also
+  # table row and column count should enter. eg:- var rowCount =3, colCount =3; 
