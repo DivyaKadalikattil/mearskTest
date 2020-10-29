@@ -162,17 +162,17 @@
 				}
 				return arra1;
 			}
-			var myArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];	// whatever values in table, should put here also	
+			var TableArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];	// whatever values in table, should put here also	
 			
 			function shuffleTable() {
-				shuffle(myArray);			
+				shuffle(TableArray);			
 				var ar=0
 				var table=document.getElementById("mytab1");
-				var len_myArray = myArray.length;
+				var len_TableArray = TableArray.length;
 				
 				for(var i=1;i<=rowCount;i++){
 					for(var j=1;j<=colCount;j++){
-						document.getElementById("col-"+i+"-"+j).innerHTML = myArray[ar]
+						document.getElementById("col-"+i+"-"+j).innerHTML = TableArray[ar]
 						ar = ar+1;
 					}
 				}
@@ -181,11 +181,11 @@
 			function sortTable() {	
 				var initialArr = [];
 				var ar=0
-				myArray = myArray.sort();
+				TableArray = TableArray.sort();
 				
 				for(var i=1;i<=rowCount;i++){
 					for(var j=1;j<=colCount;j++){
-						document.getElementById("col-"+i+"-"+j).innerHTML = myArray[ar]
+						document.getElementById("col-"+i+"-"+j).innerHTML = TableArray[ar]
 						ar = ar+1;
 					}
 				}
